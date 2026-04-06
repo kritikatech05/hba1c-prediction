@@ -2,12 +2,12 @@
 
 ## 📌 Overview
 
-This project predicts diabetes risk (HbA1c levels) using retinal fundus images and deep learning.
+This project uses deep learning to predict diabetes (HbA1c levels) from retinal fundus images.
 
 ## 🚀 Features
 
-* Image preprocessing (CLAHE, cropping, blur)
-* EfficientNet-based deep learning model
+* Image preprocessing (CLAHE, ROI cropping, Gaussian blur)
+* EfficientNet-based model
 * Binary classification (Diabetic / Non-Diabetic)
 * Data augmentation
 * Class imbalance handling
@@ -21,26 +21,27 @@ This project predicts diabetes risk (HbA1c levels) using retinal fundus images a
 
 ## 📊 Dataset
 
-Dataset sourced from Kaggle (HbA1c retinal images dataset).
+Used HbA1c retinal image dataset from Kaggle.
 
-⚠️ Dataset not included due to size (~7GB)
+⚠️ Dataset not included due to large size (~7GB)
 
-## 🏗️ Project Structure
+## ▶️ How to Run
 
-* notebooks → training experiments
-* src → core ML pipeline
-* app → future deployment
+1. Open notebook in Kaggle
+2. Add dataset (`hb1ac_images`)
+3. Run all cells
 
-## 📈 Results
+## 📈 Current Status
 
-* Accuracy: (add after training)
-* F1 Score: (add after training)
+* Data preprocessing ✅
+* Model pipeline ✅
+* Training (in progress)
 
 ## ⚡ Future Improvements
 
 * Streamlit deployment
 * Model optimization
-* Multi-class classification
+* Better evaluation metrics
 
 ## 👩‍💻 Author
 
